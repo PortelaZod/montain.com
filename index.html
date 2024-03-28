@@ -1,39 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <link href="https://fonts.cdnfonts.com/css/waiting-summer" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9866312553.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mrzod</title>
+    <title>Layout Responsivo</title>
 </head>
 <body>
+
     <div class="mcontainer">
         <div class="topnav">
             <div class="logo">
-                <div class="logo-item skull"><img src="./vecteezy_cranio_1193660.png" width="100%" height="100%"></div>
-                <div class="logo-item nome">Icaro<br>Melo</div>
+                <p>Montain.Com</p>
+                <i class="fa-solid fa-bars" id="open-btn" onclick="abrir()"></i>
+                <i class="fa-solid fa-bars-staggered" id="close-btn" onclick="fechar()"></i>
             </div>
-            
-            <div class="hidden-menu">
-                <div class="hidden-menu-icons open-icon" onclick="opn()"><i class="fa-solid fa-bars"></i></div>
-                <div class="hidden-menu-icons close-icon" onclick="cls()"><i class="fa-solid fa-bars-staggered"></i></div>
-            </div>
-            
-            <div class="bar-btns">
-                <div class="btn"><a href="#">Inicio</a></div>
-                <div class="btn"><a href="#">Galeria</a></div>
-                <div class="btn"><a href="#">Contato</a></div>
-            </div>
-            
-            <div class="social">
-                <div class="social-btns"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
-                <div class="social-btns"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
-                <div class="social-btns"><a href="#"><i class="fa-brands fa-google"></i></a></div>
+
+            <div class="btn-bar">
+                <a href="#">Menu X</a>
+                <a href="#">Menu Y</a>
+                <a href="#">Menu Z</a>
+                <a href="#">Menu A</a>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    
+    <script src="app.js"></script>
 </body>
 </html>

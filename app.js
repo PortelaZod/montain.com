@@ -16,3 +16,4 @@ function  fechar(){
 }
 
 console.log("adicionado agora")
+console.lo("outro log adicionado")

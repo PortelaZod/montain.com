@@ -17,3 +17,7 @@ function  fechar(){
 
 console.log("adicionado agora")
 
+function nova(){
+    console.log("teste branch")
+}
+

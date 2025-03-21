@@ -14,3 +14,5 @@ function  fechar(){
     btnAbrir.style.display="flex"
     btnFechar.style.display="none"
 }
+
+console.log("adicionado agora")
